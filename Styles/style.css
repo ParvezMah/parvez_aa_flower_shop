@@ -161,6 +161,9 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+.instagram_card_image {
+    border-radius: 15px;
+}
 
 
 /* Get the latest Deal Section */
@@ -173,6 +176,7 @@ header{
     background-image: url('../image_and_icons/Rectangle\ 9.png');
     background-repeat: no-repeat;
     margin:150px auto;
+    border-radius: 15px;
 }
 .get_latest_deal_area{
     text-align: center;
