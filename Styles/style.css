@@ -101,6 +101,22 @@ header{
     background: rgba(71, 125, 17, 0.15);
 }
 
+/* Hot Deal Section */
+
+.hot_deal_area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 100px 429px;
+    margin: 128px 0px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+.hot_deal_info{
+    text-align: center;
+}
+
 
 
 /* Footer Section */
