@@ -100,3 +100,28 @@ header{
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
 }
+
+
+
+/* Footer Section */
+.footer_area{
+text-align: center; 
+color: #fff;
+background: #111010;
+padding:128px 0px;
+}
+.footer_area h2{
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;;
+}
+.footer_area h2 span{
+    color: #E55473;
+}
+.footer_area p{
+    color:#fff;
+    line-height: 1.6;
+}
+.copywrite_message{
+    color: rgba(255, 255, 255, 0.40);
+}
