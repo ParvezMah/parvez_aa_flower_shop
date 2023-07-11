@@ -182,7 +182,7 @@ header{
 
 .get_latest_deal input[type="email"]{
     border: 0;
-    width: 700px;
+    width: 800px;
     height: 60px;
     border-radius: 8px;
     background: #FFF;
@@ -190,10 +190,10 @@ header{
 }
 .mailbox{
     display: flex;
-    gap:30px
+    gap:15px
 }
 ::placeholder{
-    padding:22px 513px 22px 22px ;
+    padding:22px 213px 22px 22px ;
 }
 
 /* Our Team Section */
