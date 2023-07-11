@@ -58,7 +58,10 @@ header{
 .header_title{
     font-size: 80px;
 }
-
+.header_area p{
+    text-align: left;
+    margin-left: 0;
+}
 .header_img{
     margin-top: 50px;
 }
@@ -130,8 +133,11 @@ header{
 
 /* Get the latest Deal Section */
 .get_latest_deal{
-display: block;
-    width: 1700px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1; */
+    width: 100%;
     background-image: url('../image_and_icons/Rectangle\ 9.png');
     background-repeat: no-repeat;
     margin:150px auto;
@@ -156,6 +162,30 @@ display: block;
 }
 ::placeholder{
     padding:22px 513px 22px 22px ;
+}
+
+/* Our Team Section */
+#our_team{
+    width:180px;
+    border-bottom: 5px solid #e55473;
+    margin:auto;
+    border-radius: 5px;
+}
+.team_details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:50px 0px;
+
+}
+
+.team_details img{
+    width: 200px;
+    border-radius: 50%;
+}
+.team_details h4, p{
+    text-align: center;
+    margin-top: 10px;
 }
 
 
