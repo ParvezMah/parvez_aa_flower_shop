@@ -104,6 +104,34 @@ header{
     background: rgba(71, 125, 17, 0.15);
 }
 
+/* Our Service Section */
+.our_service{
+    background: rgba(39, 39, 39, 0.05);
+    padding: 100px 50px;
+}
+.service_area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+
+}
+.service_details{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: left;
+    margin-top: 50px;
+}
+.service_details img{
+    width: 100px;
+    height: 80px;
+}
+.service_details p{
+    text-align: left;
+    margin-left: 0;
+}
+
 /* Hot Deal Section */
 
 .hot_deal_area{
@@ -121,6 +149,10 @@ header{
 }
 
 /* Instagram Section  */
+.instragram_text{
+    width: 200px;
+    border-bottom: 5px solid #e55473;
+}
 .instagram_card{
     margin-top: 48px;
 }
